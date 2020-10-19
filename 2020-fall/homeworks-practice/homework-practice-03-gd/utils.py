@@ -78,7 +78,7 @@ class GradientDescent(BaseDescent):
         :return: weight difference: np.ndarray
         """
         # TODO: implement updating weights function
-        raise NotImplementedError('GradientDescent update_weights function not implemented')
+        #raise NotImplementedError('GradientDescent update_weights function not implemented')
 
     def calc_gradient(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
         """
@@ -88,7 +88,7 @@ class GradientDescent(BaseDescent):
         :return: gradient: np.ndarray
         """
         # TODO: implement calculating gradient function
-        raise NotImplementedError('GradientDescent calc_gradient function not implemented')
+        #raise NotImplementedError('GradientDescent calc_gradient function not implemented')
 
 
 class StochasticDescent(BaseDescent):
@@ -118,7 +118,7 @@ class StochasticDescent(BaseDescent):
         :return: weight difference: np.ndarray
         """
         # TODO: implement updating weights function
-        raise NotImplementedError('StochasticDescent update_weights function not implemented')
+       # raise NotImplementedError('StochasticDescent update_weights function not implemented')
 
     def calc_gradient(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
         """
@@ -128,7 +128,7 @@ class StochasticDescent(BaseDescent):
         :return: gradient: np.ndarray
         """
         # TODO: implement calculating gradient function
-        raise NotImplementedError('StochasticDescent calc_gradient function not implemented')
+       # raise NotImplementedError('StochasticDescent calc_gradient function not implemented')
 
 
 class MomentumDescent(BaseDescent):
@@ -159,7 +159,7 @@ class MomentumDescent(BaseDescent):
         :return: weight difference: np.ndarray
         """
         # TODO: implement updating weights function
-        raise NotImplementedError('MomentumDescent update_weights function not implemented')
+     #   raise NotImplementedError('MomentumDescent update_weights function not implemented')
 
     def calc_gradient(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
         """
@@ -169,7 +169,7 @@ class MomentumDescent(BaseDescent):
         :return: gradient: np.ndarray
         """
         # TODO: implement calculating gradient function
-        raise NotImplementedError('MomentumDescent calc_gradient function not implemented')
+      #  raise NotImplementedError('MomentumDescent calc_gradient function not implemented')
 
 
 class Adagrad(BaseDescent):
@@ -200,7 +200,7 @@ class Adagrad(BaseDescent):
         :return: weight difference: np.ndarray
         """
         # TODO: implement updating weights function
-        raise NotImplementedError('Adagrad update_weights function not implemented')
+       # raise NotImplementedError('Adagrad update_weights function not implemented')
 
     def calc_gradient(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
         """
@@ -210,7 +210,7 @@ class Adagrad(BaseDescent):
         :return: gradient: np.ndarray
         """
         # TODO: implement calculating gradient function
-        raise NotImplementedError('Adagrad calc_gradient function not implemented')
+      #  raise NotImplementedError('Adagrad calc_gradient function not implemented')
 
 
 class GradientDescentReg(GradientDescent):
@@ -321,7 +321,7 @@ class LinearRegression:
         :return: self
         """
         # TODO: fit weights to X and y
-        raise NotImplementedError('LinearRegression fit function not implemented')
+        #raise NotImplementedError('LinearRegression fit function not implemented')
 
     def predict(self, X: np.ndarray) -> np.ndarray:
         """
@@ -330,7 +330,7 @@ class LinearRegression:
         :return: predicted targets
         """
         # TODO: calculate prediction for X
-        raise NotImplementedError('LinearRegression predict function not implemented')
+       # raise NotImplementedError('LinearRegression predict function not implemented')
 
     def calc_loss(self, X: np.ndarray, y: np.ndarray) -> None:
         """
@@ -339,7 +339,7 @@ class LinearRegression:
         :param y: objects' target
         """
         # TODO: calculate loss and save it to loss_history
-        raise NotImplementedError('LinearRegression calc_loss function not implemented')
+     #   raise NotImplementedError('LinearRegression calc_loss function not implemented')
 
 
 ###########################################################
@@ -373,7 +373,7 @@ class StochasticAverageGradient(BaseDescent):
         :return: weight difference: np.ndarray
         """
         # TODO: implement updating weights function
-        raise NotImplementedError('GradientDescent update_weights function not implemented')
+       # raise NotImplementedError('GradientDescent update_weights function not implemented')
 
     def calc_gradient(self, X: np.ndarray, y: np.ndarray) -> np.ndarray:
         """
@@ -383,7 +383,7 @@ class StochasticAverageGradient(BaseDescent):
         :return: gradient: np.ndarray
         """
         # TODO: implement calculating gradient function
-        raise NotImplementedError('GradientDescent calc_gradient function not implemented')
+      #  raise NotImplementedError('GradientDescent calc_gradient function not implemented')
 
 ###########################################################
 ####################### BONUS TASK ########################
